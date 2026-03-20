@@ -308,7 +308,7 @@ export default function Home() {
               <span>🌐</span> iSAFE 2026
             </a>
           </div>
-          <p>Built by <strong className="text-white/40">Edward Elisha Musabila</strong> · St. Joseph University Tanzania</p>
+          <p>Built by <strong className="text-white/40">Edward Elisha Musabila</strong></p>
           <p>iSAFE Hackathon 2026 · ITU + CyberPeace Institute · Theme: Detect the Deceptive</p>
         </div>
 
