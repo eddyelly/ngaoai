@@ -1,9 +1,177 @@
-message,label,source
-"Hongera! Umeshinda TZS 5,000,000 katika bahati nasibu ya Vodacom. Tuma TZS 50,000 ili upokee zawadi yako. Piga simu: 0754XXXXXX",SCAM,synthetic
-"Mpendwa mteja, akaunti yako ya M-Pesa imezuiwa. Tuma PIN yako kwa nambari hii ili kufungua: 0712XXXXXX",SCAM,synthetic
-"Leo tu! Tuma TZS 10,000 upate TZS 100,000 ndani ya saa 2. Haraka kabla ya muda kwisha! Wasiliana: 0768XXXXXX",SCAM,synthetic
-"Umeshinda kura ya Airtel. Ili kupokea TZS 2,000,000, wasiliana na wakala wetu sasa hivi na utoe namba yako ya siri.",SCAM,synthetic
-"Double pesa yako! Tuma yoyote upate mara mbili. Imani ya kweli. Wasiliana WhatsApp: 0756XXXXXX",SCAM,synthetic
-"Mpesa: Confirmed. Ksh 500 sent to JOHN DOE on 20/3/26 at 3:45 PM. New M-PESA balance is Ksh 2,340. Transaction ID: QHJ8K2L",SAFE,synthetic
-"Umetuma TZS 50,000 kwa Amina Hassan 0712345678 tarehe 20/03/2026. Salio lako: TZS 145,230. Ref: TZ20260320001",SAFE,synthetic
-"Umepokea TZS 100,000 kutoka kwa Emmanuel Joseph 0767XXXXXX. Salio jipya: TZS 250,000. Asante kwa kutumia M-Pesa.",SAFE,synthetic
+message,label,category,source
+"Hongera! Umeshinda TZS 5,000,000 katika bahati nasibu ya Vodacom. Tuma TZS 50,000 ili upokee zawadi yako. Piga simu: 0754XXXXXX",SCAM,prize_scam,synthetic
+"Mpendwa mteja, akaunti yako ya M-Pesa imezuiwa. Tuma PIN yako kwa nambari hii ili kufungua: 0712XXXXXX",SCAM,pin_phishing,synthetic
+"Leo tu! Tuma TZS 10,000 upate TZS 100,000 ndani ya saa 2. Haraka kabla ya muda kwisha! Wasiliana: 0768XXXXXX",SCAM,money_doubling,synthetic
+"Umeshinda kura ya Airtel. Ili kupokea TZS 2,000,000 wasiliana na wakala wetu sasa hivi na utoe namba yako ya siri.",SCAM,prize_scam,synthetic
+"Double pesa yako! Tuma yoyote upate mara mbili. Imani ya kweli. Wasiliana WhatsApp: 0756XXXXXX",SCAM,money_doubling,synthetic
+"BENKI YA CRDB: Akaunti yako itafungwa kesho. Thibitisha kwa kutuma nywila yako kwa: 0700XXXXXX au bonyeza hapa: bit.ly/XXXXXX",SCAM,bank_impersonation,synthetic
+"Mama/Baba nimepata ajali. Niko hospitali. Tuma TZS 200,000 haraka kwa nambari hii: 0745XXXXXX. Nitaeleza baadaye.",SCAM,emergency_scam,synthetic
+"Congratulations! Your number won Tigo prize of TZS 3,000,000. Call our agent NOW: 0789XXXXXX. Offer expires today!",SCAM,prize_scam,synthetic
+"Habari, mimi ni wakala wa NMB. Akaunti yako ina tatizo. Tuma OTP uliyopokea ili nikuaidie kutatua tatizo.",SCAM,otp_phishing,synthetic
+"Tuma TZS 5,000 kwa 0723XXXXXX upate TZS 50,000 mara moja. Watu 47 wamefaidika leo. Haraka nafasi ni chache!",SCAM,money_doubling,synthetic
+"ONYO: Sim card yako ya Airtel itafutwa saa 6. Thibitisha umiliki wako tuma namba yako ya kitambulisho kwa: 0799XXXXXX",SCAM,sim_swap,synthetic
+"Hongera Edward! Umechaguliwa kupata mkopo wa TZS 1,000,000 bila dhamana. Lipa ada ya usajili TZS 30,000 kwanza: 0733XXXXXX",SCAM,loan_scam,synthetic
+"Mimi ni John kutoka M-Pesa support. Tunahitaji kuthibitisha akaunti yako. Tuma namba yako ya siri ya M-Pesa sasa.",SCAM,pin_phishing,synthetic
+"Fursa ya kipekee! Jiunge na kikundi chetu cha uwekezaji upate faida ya 50% kila wiki. Weka TZS 100,000 leo: 0711XXXXXX",SCAM,investment_fraud,synthetic
+"Daktari wako amesema unahitaji dawa ya haraka. Tuma TZS 150,000 kwa 0766XXXXXX akutengenezee kabla ya kesho.",SCAM,medical_scam,synthetic
+"Umepata kazi mpya! Kabla ya kuanza lipa deposit ya TZS 50,000 ili kuthibitisha uanachama wako. 0744XXXXXX",SCAM,job_scam,synthetic
+"VODACOM TANZANIA: Una bonus ya dakika 1000 zinakusubiri. Bonyeza hapa kuthibitisha: http://voda-tz-bonus.xyz/confirm",SCAM,phishing_link,synthetic
+"Tuma TZS 20,000 kwa 0788XXXXXX upate SIM card mpya ya bure na data ya GB 10. Leo tu bei ya chini kabisa!",SCAM,fake_offer,synthetic
+"Ndugu yangu, niko nje ya nchi na nimepoteza pesa zangu. Tuma TZS 300,000 nitakurudishia mara nifikapo. Naomba sana.",SCAM,emergency_scam,synthetic
+"ALERT: M-Pesa account suspended due to suspicious activity. Send your PIN to 0755XXXXXX to restore access immediately.",SCAM,pin_phishing,synthetic
+"Umeshinda Samsung Galaxy S24! Ili kupokea, tuma TZS 75,000 kwa ada ya ushuru kwa: 0722XXXXXX ndani ya saa 24.",SCAM,prize_scam,synthetic
+"Mpesa: Confirmed. Ksh 500 sent to JOHN DOE on 20/3/26 at 3:45 PM. New M-PESA balance is Ksh 2,340. Transaction ID: QHJ8K2L",SAFE,transaction_confirmation,synthetic
+"Umetuma TZS 50,000 kwa Amina Hassan 0712345678 tarehe 20/03/2026. Salio lako: TZS 145,230. Ref: TZ20260320001",SAFE,transaction_confirmation,synthetic
+"Umepokea TZS 100,000 kutoka kwa Emmanuel Joseph 0767XXXXXX. Salio jipya: TZS 250,000. Asante kwa kutumia M-Pesa.",SAFE,transaction_confirmation,synthetic
+"CRDB Bank: Akaunti yako imetumia TZS 80,000. Salio: TZS 320,450. Tarehe: 20/03/2026 15:32. Ref: CRD202603201",SAFE,transaction_confirmation,synthetic
+"Airtel Money: Umepokea TZS 25,000 kutoka 0784XXXXXX. Salio lako jipya ni TZS 67,800. Asante.",SAFE,transaction_confirmation,synthetic
+"NMB: Taarifa ya akaunti. Umetoa TZS 200,000 ATM tarehe 20/03/2026 saa 10:15. Salio: TZS 1,234,500.",SAFE,transaction_confirmation,synthetic
+"Tigo Pesa: Malipo ya TZS 15,000 kwa DAWASCO yamefanikiwa. Nambari ya kumbukumbu: TP20260320789. Asante.",SAFE,bill_payment,synthetic
+"M-Pesa: Umefanikiwa kulipa bili ya TANESCO TZS 45,000. Akaunti namba: 1234567890. Tarehe: 20/03/2026.",SAFE,bill_payment,synthetic
+"Vodacom: Data yako ya 1GB imeisha. Nunua data mpya: *150*50# (TZS 1,000 = 1GB) au tembelea duka lolote la Vodacom.",SAFE,service_notification,synthetic
+"Hujambo, nina kazi ndogo ya ujenzi. Je, unaweza kunisaidia? Nitakupigia kesho asubuhi tukubaliane bei.",SAFE,general_message,synthetic
+"Mama, nimefika Dar salama. Nitapiga simu usiku. Chakula kilikuwa kizuri safarini.",SAFE,personal_message,synthetic
+"Reminder: Mkutano wetu ni kesho saa 3 asubuhi. Tutakutana ofisini. Tafadhali lete ripoti yako.",SAFE,personal_message,synthetic
+"NHIF: Kadi yako ya bima itaisha tarehe 31/03/2026. Fanya malipo ya TZS 60,000 kwa wakati. *152#",SAFE,service_notification,synthetic
+"Duka letu lina punguzo la 20% kwa bidhaa zote wiki hii. Karibu sana! Tuko Kariakoo, stendi ya 5.",SAFE,advertisement,synthetic
+"Posta Tanzania: Kifurushi chako kimefikia ghala letu. Nambari ya ufuatiliaji: TZ123456789. Kuja kulichukua ndani ya siku 7.",SAFE,parcel_notification,synthetic
+"Benki ya Posta: Akaunti yako ya akiba imeongezeka riba ya TZS 3,450 kwa mwezi wa Machi. Salio jipya: TZS 567,890.",SAFE,bank_notification,synthetic
+"LAFARGE: Bili yako ya saruji iko tayari. Jumla: TZS 2,340,000. Lipa ndani ya siku 30. Maswali: 0800110006",SAFE,bill_payment,synthetic
+"Habari! Naomba unisaidie kunipa nambari ya daktari uliyemwona wiki iliyopita. Mama yangu ana maumivu sawa sawa.",SAFE,personal_message,synthetic
+"TANESCO: Malipo yako ya TZS 89,000 yamefanikiwa. Nambari ya akaunti: 1234567. Umeme utaendelea bila tatizo.",SAFE,bill_payment,synthetic
+"Shule ya Msingi Uhuru: Ada ya muhula wa kwanza inastahili kulipwa kabla ya tarehe 15/04/2026. Kiasi: TZS 150,000.",SAFE,school_notification,synthetic
+"Baba wako yuko hospitali! Anahitaji TZS 61,000 haraka. Tuma kwa: 0783181412. Tafadhali!",SCAM,emergency_scam,synthetic_generated
+Vodacom: Salio lako la data ni 977MB. Nunua zaidi: *150*50#,SAFE,service_notification,synthetic_generated
+"HABARI NJEMA! Nambari yako imechaguliwa kushinda TZS 8,925,000. Wasiliana sasa: 0730406948. Muda unakwisha leo!",SCAM,prize_scam,synthetic_generated
+Absa Bank: Thibitisha akaunti yako tuma nywila yako SMS kwa: 0739983466 SASA HIVI.,SCAM,pin_phishing,synthetic_generated
+"Umekubalika kupata mkopo wa TZS 197,000 bila dhamana. Lipa ada ya TZS 20,000 kwanza: 0785573489",SCAM,loan_scam,synthetic_generated
+"Habari ya haraka - Kaka amepata ajali. Tuma TZS 24,000 kwa 0790948456 mara moja.",SCAM,emergency_scam,synthetic_generated
+TANGAZO LA KAZI: Unahitajika mara moja. Mshahara mkubwa. Ada ya maombi tu: 0731401957,SCAM,job_scam,synthetic_generated
+Mfumo wetu unahitaji kuthibitisha akaunti yako. Tuma OTP uliyopokea kwa: 0795968796,SCAM,pin_phishing,synthetic_generated
+"Benki yetu inakupa mkopo wa TZS 177,000. Tuma ada ya ufunguo TZS 15,000 kwa: 0753801933",SCAM,loan_scam,synthetic_generated
+"M-Pesa: Umefanikiwa kutuma TZS TZS 324,000 kwa David 0786384947. Salio: TZS TZS 4,185,000. Ref: TZ267633613",SAFE,transaction_confirmation,synthetic_generated
+"Umechaguliwa kwa kazi ya TZS 542,000/mwezi. Lipa deposit TZS 50,000 kuthibitisha. Wasiliana: 0795484555",SCAM,job_scam,synthetic_generated
+"TTCL: Ankara yako ya TZS TZS 470,000 imelipwa. Huduma itaendelea kawaida.",SAFE,bill_payment,synthetic_generated
+"Benki yetu inakupa mkopo wa TZS 39,000. Tuma ada ya ufunguo TZS 15,000 kwa: 0796415420",SCAM,loan_scam,synthetic_generated
+"Tigo Pesa: Malipo ya TZS TZS 50,000 yamefanikiwa. Ref: TZ453797769. Salio: TZS TZS 4,360,000.",SAFE,transaction_confirmation,synthetic_generated
+"Airtel Money: Umepokea TZS TZS 246,000 kutoka 0742919606. Salio jipya: TZS TZS 2,639,000.",SAFE,transaction_confirmation,synthetic_generated
+"TANESCO: Malipo ya TZS TZS 314,000 yamekubaliwa. Akaunti: 1182795935. Asante.",SAFE,bill_payment,synthetic_generated
+"DAWASCO: Bili ya maji TZS TZS 437,000 imelipwa. Nambari ya kumbukumbu: TZ438523341.",SAFE,bill_payment,synthetic_generated
+"Habari ya haraka - Dada amepata ajali. Tuma TZS 102,000 kwa 0717105997 mara moja.",SCAM,emergency_scam,synthetic_generated
+"Umechaguliwa kwa kazi ya TZS 2,514,000/mwezi. Lipa deposit TZS 50,000 kuthibitisha. Wasiliana: 0763488769",SCAM,job_scam,synthetic_generated
+M-Pesa support: Akaunti yako ina tatizo. Tuma PIN yako kwa 0725313531 ili kutatua haraka.,SCAM,pin_phishing,synthetic_generated
+"Kazi mpya inakusubiri! Mshahara TZS 1,147,000. Tuma ada ya usajili TZS 30,000 kwa 0717153525",SCAM,job_scam,synthetic_generated
+NHIF: Kadi yako ya bima ni halali. Tarehe ya kuisha: 25/04/2026.,SAFE,service_notification,synthetic_generated
+NHIF: Kadi yako ya bima ni halali. Tarehe ya kuisha: 13/08/2026.,SAFE,service_notification,synthetic_generated
+"Umeshinda TZS 8,279,000 ya Equity! Ili kudai tuzo yako tuma TZS 63,000 kwa wakala wetu: 0735860918",SCAM,prize_scam,synthetic_generated
+"Umeshinda TZS 4,741,000 ya Tigo! Ili kudai tuzo yako tuma TZS 77,000 kwa wakala wetu: 0770544233",SCAM,prize_scam,synthetic_generated
+"Umeshinda TZS 7,864,000 ya Airtel! Ili kudai tuzo yako tuma TZS 50,000 kwa wakala wetu: 0789566545",SCAM,prize_scam,synthetic_generated
+"MKOPO HARAKA! Pata TZS 164,000 leo. Ada ndogo ya usajili tu. Wasiliana: 0777475881",SCAM,loan_scam,synthetic_generated
+"Kazi mpya inakusubiri! Mshahara TZS 1,370,000. Tuma ada ya usajili TZS 30,000 kwa 0797896403",SCAM,job_scam,synthetic_generated
+"MKOPO HARAKA! Pata TZS 183,000 leo. Ada ndogo ya usajili tu. Wasiliana: 0749858264",SCAM,loan_scam,synthetic_generated
+"Airtel: Salio lako ni TZS TZS 2,516,000. Dakika: 954. Data: 4405MB.",SAFE,service_notification,synthetic_generated
+"M-Pesa: Umefanikiwa kutuma TZS TZS 43,000 kwa John 0774878624. Salio: TZS TZS 2,487,000. Ref: TZ569487154",SAFE,transaction_confirmation,synthetic_generated
+"Baba wako yuko hospitali! Anahitaji TZS 25,000 haraka. Tuma kwa: 0771751145. Tafadhali!",SCAM,emergency_scam,synthetic_generated
+"Umeshinda TZS 1,175,000 ya NMB! Ili kudai tuzo yako tuma TZS 85,000 kwa wakala wetu: 0747304684",SCAM,prize_scam,synthetic_generated
+"HABARI NJEMA! Nambari yako imechaguliwa kushinda TZS 3,933,000. Wasiliana sasa: 0746798104. Muda unakwisha leo!",SCAM,prize_scam,synthetic_generated
+"Airtel Money: Umepokea TZS TZS 350,000 kutoka 0777863885. Salio jipya: TZS TZS 2,257,000.",SAFE,transaction_confirmation,synthetic_generated
+"Tigo Pesa: Malipo ya TZS TZS 422,000 yamefanikiwa. Ref: TZ383378944. Salio: TZS TZS 4,441,000.",SAFE,transaction_confirmation,synthetic_generated
+"Fursa ya kipekee! Weka TZS 128,000 upate TZS 1,766,000 mara moja. Hakuna hatari. Wasiliana: 0717357574",SCAM,money_doubling,synthetic_generated
+"Umechaguliwa kwa kazi ya TZS 1,381,000/mwezi. Lipa deposit TZS 50,000 kuthibitisha. Wasiliana: 0784259014",SCAM,job_scam,synthetic_generated
+Mfumo wetu unahitaji kuthibitisha akaunti yako. Tuma OTP uliyopokea kwa: 0774852356,SCAM,pin_phishing,synthetic_generated
+NHIF: Kadi yako ya bima ni halali. Tarehe ya kuisha: 24/07/2026.,SAFE,service_notification,synthetic_generated
+"Umekubalika kupata mkopo wa TZS 57,000 bila dhamana. Lipa ada ya TZS 20,000 kwanza: 0711190102",SCAM,loan_scam,synthetic_generated
+Vodacom: Salio lako la data ni 1975MB. Nunua zaidi: *150*50#,SAFE,service_notification,synthetic_generated
+"Umekubalika kupata mkopo wa TZS 11,000 bila dhamana. Lipa ada ya TZS 20,000 kwanza: 0787143927",SCAM,loan_scam,synthetic_generated
+"Tigo Pesa: Malipo ya TZS TZS 161,000 yamefanikiwa. Ref: TZ173110272. Salio: TZS TZS 3,071,000.",SAFE,transaction_confirmation,synthetic_generated
+"Airtel Money: Umepokea TZS TZS 405,000 kutoka 0750987804. Salio jipya: TZS TZS 507,000.",SAFE,transaction_confirmation,synthetic_generated
+"DAWASCO: Bili ya maji TZS TZS 153,000 imelipwa. Nambari ya kumbukumbu: TZ988260740.",SAFE,bill_payment,synthetic_generated
+"Airtel: Salio lako ni TZS TZS 2,454,000. Dakika: 546. Data: 1895MB.",SAFE,service_notification,synthetic_generated
+"Mtoto wako yuko hospitali! Anahitaji TZS 176,000 haraka. Tuma kwa: 0780582313. Tafadhali!",SCAM,emergency_scam,synthetic_generated
+M-Pesa support: Akaunti yako ina tatizo. Tuma PIN yako kwa 0798368949 ili kutatua haraka.,SCAM,pin_phishing,synthetic_generated
+"Umechaguliwa kwa kazi ya TZS 2,478,000/mwezi. Lipa deposit TZS 50,000 kuthibitisha. Wasiliana: 0799238163",SCAM,job_scam,synthetic_generated
+"Benki yetu inakupa mkopo wa TZS 42,000. Tuma ada ya ufunguo TZS 15,000 kwa: 0779953420",SCAM,loan_scam,synthetic_generated
+"Airtel Money: Umepokea TZS TZS 53,000 kutoka 0717296685. Salio jipya: TZS TZS 791,000.",SAFE,transaction_confirmation,synthetic_generated
+"Airtel Money: Umepokea TZS TZS 169,000 kutoka 0769130996. Salio jipya: TZS TZS 657,000.",SAFE,transaction_confirmation,synthetic_generated
+"MKOPO HARAKA! Pata TZS 149,000 leo. Ada ndogo ya usajili tu. Wasiliana: 0719397074",SCAM,loan_scam,synthetic_generated
+"Niko jela! Nahitaji TZS 32,000 kwa dhamana. Tuma kwa 0716763537. Mtoto yako.",SCAM,emergency_scam,synthetic_generated
+"Double pesa yako leo! TZS 57,000 inakuwa TZS 562,000. Thibitisha kwa: 0730732802",SCAM,money_doubling,synthetic_generated
+"Hongera Maria! Umeshinda TZS 5,824,000 katika bahati nasibu ya NMB. Tuma TZS 12,000 ili upokee zawadi. Piga: 0726547998",SCAM,prize_scam,synthetic_generated
+Mfumo wetu unahitaji kuthibitisha akaunti yako. Tuma OTP uliyopokea kwa: 0752433147,SCAM,pin_phishing,synthetic_generated
+"Double pesa yako leo! TZS 189,000 inakuwa TZS 1,623,000. Thibitisha kwa: 0780839211",SCAM,money_doubling,synthetic_generated
+"Double pesa yako leo! TZS 18,000 inakuwa TZS 407,000. Thibitisha kwa: 0743871301",SCAM,money_doubling,synthetic_generated
+M-Pesa support: Akaunti yako ina tatizo. Tuma PIN yako kwa 0778115655 ili kutatua haraka.,SCAM,pin_phishing,synthetic_generated
+"Kazi mpya inakusubiri! Mshahara TZS 1,174,000. Tuma ada ya usajili TZS 30,000 kwa 0777716847",SCAM,job_scam,synthetic_generated
+NHIF: Kadi yako ya bima ni halali. Tarehe ya kuisha: 10/04/2026.,SAFE,service_notification,synthetic_generated
+"Habari ya haraka - Mke amepata ajali. Tuma TZS 168,000 kwa 0797968608 mara moja.",SCAM,emergency_scam,synthetic_generated
+"Benki yetu inakupa mkopo wa TZS 131,000. Tuma ada ya ufunguo TZS 15,000 kwa: 0722116440",SCAM,loan_scam,synthetic_generated
+"Tuma TZS 71,000 upate TZS 1,026,000 ndani ya saa 12. Watu 486 wamefaidika. Haraka: 0733659154",SCAM,money_doubling,synthetic_generated
+"Umeshinda TZS 9,200,000 ya NMB! Ili kudai tuzo yako tuma TZS 23,000 kwa wakala wetu: 0787323197",SCAM,prize_scam,synthetic_generated
+"Tuma TZS 40,000 upate TZS 844,000 ndani ya saa 19. Watu 328 wamefaidika. Haraka: 0764397431",SCAM,money_doubling,synthetic_generated
+"Double pesa yako leo! TZS 73,000 inakuwa TZS 1,924,000. Thibitisha kwa: 0775659158",SCAM,money_doubling,synthetic_generated
+"TANESCO: Malipo ya TZS TZS 228,000 yamekubaliwa. Akaunti: 2317050447. Asante.",SAFE,bill_payment,synthetic_generated
+"Double pesa yako leo! TZS 125,000 inakuwa TZS 823,000. Thibitisha kwa: 0725968069",SCAM,money_doubling,synthetic_generated
+"Tuma TZS 19,000 upate TZS 674,000 ndani ya saa 3. Watu 39 wamefaidika. Haraka: 0741514432",SCAM,money_doubling,synthetic_generated
+"MKOPO HARAKA! Pata TZS 148,000 leo. Ada ndogo ya usajili tu. Wasiliana: 0778801812",SCAM,loan_scam,synthetic_generated
+Absa Bank: Thibitisha akaunti yako tuma nywila yako SMS kwa: 0726541688 SASA HIVI.,SCAM,pin_phishing,synthetic_generated
+Mfumo wetu unahitaji kuthibitisha akaunti yako. Tuma OTP uliyopokea kwa: 0746263684,SCAM,pin_phishing,synthetic_generated
+"Tuma TZS 189,000 upate TZS 1,790,000 ndani ya saa 10. Watu 347 wamefaidika. Haraka: 0760286150",SCAM,money_doubling,synthetic_generated
+"Airtel: Salio lako ni TZS TZS 3,511,000. Dakika: 304. Data: 4883MB.",SAFE,service_notification,synthetic_generated
+"Kazi mpya inakusubiri! Mshahara TZS 890,000. Tuma ada ya usajili TZS 30,000 kwa 0793938743",SCAM,job_scam,synthetic_generated
+"Airtel: Salio lako ni TZS TZS 453,000. Dakika: 305. Data: 834MB.",SAFE,service_notification,synthetic_generated
+M-Pesa support: Akaunti yako ina tatizo. Tuma PIN yako kwa 0790341492 ili kutatua haraka.,SCAM,pin_phishing,synthetic_generated
+Vodacom: Salio lako la data ni 3438MB. Nunua zaidi: *150*50#,SAFE,service_notification,synthetic_generated
+"M-Pesa: Umefanikiwa kutuma TZS TZS 487,000 kwa Fatuma 0785338440. Salio: TZS TZS 257,000. Ref: TZ581931318",SAFE,transaction_confirmation,synthetic_generated
+"Tuma TZS 56,000 upate TZS 118,000 ndani ya saa 9. Watu 180 wamefaidika. Haraka: 0767579324",SCAM,money_doubling,synthetic_generated
+"Double pesa yako leo! TZS 100,000 inakuwa TZS 471,000. Thibitisha kwa: 0714538583",SCAM,money_doubling,synthetic_generated
+"M-Pesa: Umefanikiwa kutuma TZS TZS 362,000 kwa Edward 0748465666. Salio: TZS TZS 3,462,000. Ref: TZ594732979",SAFE,transaction_confirmation,synthetic_generated
+"Habari ya haraka - Mke amepata ajali. Tuma TZS 152,000 kwa 0774548011 mara moja.",SCAM,emergency_scam,synthetic_generated
+"HABARI NJEMA! Nambari yako imechaguliwa kushinda TZS 2,439,000. Wasiliana sasa: 0792550022. Muda unakwisha leo!",SCAM,prize_scam,synthetic_generated
+"Tuma TZS 41,000 upate TZS 1,839,000 ndani ya saa 24. Watu 477 wamefaidika. Haraka: 0712977185",SCAM,money_doubling,synthetic_generated
+M-Pesa support: Akaunti yako ina tatizo. Tuma PIN yako kwa 0730988401 ili kutatua haraka.,SCAM,pin_phishing,synthetic_generated
+"Habari ya haraka - Baba amepata ajali. Tuma TZS 134,000 kwa 0799513190 mara moja.",SCAM,emergency_scam,synthetic_generated
+"Umechaguliwa kwa kazi ya TZS 1,197,000/mwezi. Lipa deposit TZS 50,000 kuthibitisha. Wasiliana: 0734962184",SCAM,job_scam,synthetic_generated
+"TTCL: Ankara yako ya TZS TZS 455,000 imelipwa. Huduma itaendelea kawaida.",SAFE,bill_payment,synthetic_generated
+Vodacom: Salio lako la data ni 435MB. Nunua zaidi: *150*50#,SAFE,service_notification,synthetic_generated
+Mfumo wetu unahitaji kuthibitisha akaunti yako. Tuma OTP uliyopokea kwa: 0749601132,SCAM,pin_phishing,synthetic_generated
+"Airtel: Salio lako ni TZS TZS 1,851,000. Dakika: 726. Data: 1665MB.",SAFE,service_notification,synthetic_generated
+"TTCL: Ankara yako ya TZS TZS 452,000 imelipwa. Huduma itaendelea kawaida.",SAFE,bill_payment,synthetic_generated
+"Hongera John! Umeshinda TZS 9,466,000 katika bahati nasibu ya NMB. Tuma TZS 76,000 ili upokee zawadi. Piga: 0737150535",SCAM,prize_scam,synthetic_generated
+"DAWASCO: Bili ya maji TZS TZS 82,000 imelipwa. Nambari ya kumbukumbu: TZ836778764.",SAFE,bill_payment,synthetic_generated
+"DAWASCO: Bili ya maji TZS TZS 497,000 imelipwa. Nambari ya kumbukumbu: TZ743697941.",SAFE,bill_payment,synthetic_generated
+"Benki yetu inakupa mkopo wa TZS 46,000. Tuma ada ya ufunguo TZS 15,000 kwa: 0748567869",SCAM,loan_scam,synthetic_generated
+"Kazi mpya inakusubiri! Mshahara TZS 2,298,000. Tuma ada ya usajili TZS 30,000 kwa 0711794880",SCAM,job_scam,synthetic_generated
+"Habari ya haraka - Kaka amepata ajali. Tuma TZS 27,000 kwa 0752961512 mara moja.",SCAM,emergency_scam,synthetic_generated
+"MKOPO HARAKA! Pata TZS 130,000 leo. Ada ndogo ya usajili tu. Wasiliana: 0790222181",SCAM,loan_scam,synthetic_generated
+"Airtel Money: Umepokea TZS TZS 33,000 kutoka 0741701038. Salio jipya: TZS TZS 4,024,000.",SAFE,transaction_confirmation,synthetic_generated
+"Niko jela! Nahitaji TZS 88,000 kwa dhamana. Tuma kwa 0772919136. Mtoto yako.",SCAM,emergency_scam,synthetic_generated
+"HABARI NJEMA! Nambari yako imechaguliwa kushinda TZS 1,663,000. Wasiliana sasa: 0768398182. Muda unakwisha leo!",SCAM,prize_scam,synthetic_generated
+"Habari ya haraka - Baba amepata ajali. Tuma TZS 89,000 kwa 0756912346 mara moja.",SCAM,emergency_scam,synthetic_generated
+"Airtel: Salio lako ni TZS TZS 539,000. Dakika: 311. Data: 3609MB.",SAFE,service_notification,synthetic_generated
+"DAWASCO: Bili ya maji TZS TZS 187,000 imelipwa. Nambari ya kumbukumbu: TZ971858334.",SAFE,bill_payment,synthetic_generated
+"HABARI NJEMA! Nambari yako imechaguliwa kushinda TZS 2,845,000. Wasiliana sasa: 0787221776. Muda unakwisha leo!",SCAM,prize_scam,synthetic_generated
+"TTCL: Ankara yako ya TZS TZS 6,000 imelipwa. Huduma itaendelea kawaida.",SAFE,bill_payment,synthetic_generated
+"Umeshinda TZS 3,420,000 ya CRDB! Ili kudai tuzo yako tuma TZS 62,000 kwa wakala wetu: 0736516865",SCAM,prize_scam,synthetic_generated
+"Tigo Pesa: Malipo ya TZS TZS 385,000 yamefanikiwa. Ref: TZ676728432. Salio: TZS TZS 1,991,000.",SAFE,transaction_confirmation,synthetic_generated
+"Tuma TZS 84,000 upate TZS 1,391,000 ndani ya saa 24. Watu 144 wamefaidika. Haraka: 0747925268",SCAM,money_doubling,synthetic_generated
+"DAWASCO: Bili ya maji TZS TZS 428,000 imelipwa. Nambari ya kumbukumbu: TZ683286912.",SAFE,bill_payment,synthetic_generated
+NMB Bank: Thibitisha akaunti yako tuma nywila yako SMS kwa: 0769437171 SASA HIVI.,SCAM,pin_phishing,synthetic_generated
+"Umekubalika kupata mkopo wa TZS 69,000 bila dhamana. Lipa ada ya TZS 20,000 kwanza: 0726135927",SCAM,loan_scam,synthetic_generated
+"Umechaguliwa kwa kazi ya TZS 2,479,000/mwezi. Lipa deposit TZS 50,000 kuthibitisha. Wasiliana: 0743952395",SCAM,job_scam,synthetic_generated
+"Niko jela! Nahitaji TZS 127,000 kwa dhamana. Tuma kwa 0748159624. Mama yako.",SCAM,emergency_scam,synthetic_generated
+TANGAZO LA KAZI: Unahitajika mara moja. Mshahara mkubwa. Ada ya maombi tu: 0727569521,SCAM,job_scam,synthetic_generated
+"Habari ya haraka - Baba amepata ajali. Tuma TZS 122,000 kwa 0745133826 mara moja.",SCAM,emergency_scam,synthetic_generated
+"TTCL: Ankara yako ya TZS TZS 154,000 imelipwa. Huduma itaendelea kawaida.",SAFE,bill_payment,synthetic_generated
+NMB Bank: Thibitisha akaunti yako tuma nywila yako SMS kwa: 0757886446 SASA HIVI.,SCAM,pin_phishing,synthetic_generated
+Vodacom: Salio lako la data ni 1793MB. Nunua zaidi: *150*50#,SAFE,service_notification,synthetic_generated
+"TANESCO: Malipo ya TZS TZS 207,000 yamekubaliwa. Akaunti: 9627869403. Asante.",SAFE,bill_payment,synthetic_generated
+"Mama wako yuko hospitali! Anahitaji TZS 56,000 haraka. Tuma kwa: 0761572280. Tafadhali!",SCAM,emergency_scam,synthetic_generated
+"Airtel Money: Umepokea TZS TZS 374,000 kutoka 0779636861. Salio jipya: TZS TZS 2,001,000.",SAFE,transaction_confirmation,synthetic_generated
+"Umeshinda TZS 6,864,000 ya NMB! Ili kudai tuzo yako tuma TZS 27,000 kwa wakala wetu: 0740171888",SCAM,prize_scam,synthetic_generated
+"TANESCO: Malipo ya TZS TZS 348,000 yamekubaliwa. Akaunti: 5575772179. Asante.",SAFE,bill_payment,synthetic_generated
+"Umechaguliwa kwa kazi ya TZS 1,574,000/mwezi. Lipa deposit TZS 50,000 kuthibitisha. Wasiliana: 0786313170",SCAM,job_scam,synthetic_generated
+"Umekubalika kupata mkopo wa TZS 177,000 bila dhamana. Lipa ada ya TZS 20,000 kwanza: 0762643046",SCAM,loan_scam,synthetic_generated
+CRDB Bank: Thibitisha akaunti yako tuma nywila yako SMS kwa: 0713642174 SASA HIVI.,SCAM,pin_phishing,synthetic_generated
+TANGAZO LA KAZI: Unahitajika mara moja. Mshahara mkubwa. Ada ya maombi tu: 0732813190,SCAM,job_scam,synthetic_generated
+"Fursa ya kipekee! Weka TZS 50,000 upate TZS 1,164,000 mara moja. Hakuna hatari. Wasiliana: 0740691565",SCAM,money_doubling,synthetic_generated
+"Umeshinda TZS 1,714,000 ya Equity! Ili kudai tuzo yako tuma TZS 87,000 kwa wakala wetu: 0790871818",SCAM,prize_scam,synthetic_generated
