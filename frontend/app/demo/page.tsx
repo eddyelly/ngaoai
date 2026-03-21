@@ -66,7 +66,7 @@ export default function Demo() {
         <div className="text-center mb-10">
           <div className="text-6xl mb-4 animate-bounce">🛡️</div>
           <h1 className="text-4xl font-black mb-3">Live Demo</h1>
-          <p className="text-white/50">Test NgaoAI on any Swahili message — see the AI in action</p>
+          <p className="text-white/50">Test NgaoAI on any Swahili message - see the AI in action</p>
         </div>
 
         {/* Input */}

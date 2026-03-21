@@ -1,8 +1,8 @@
-# 🛡️ NgaoAI — AI-Powered Mobile Money Scam Detector
+# 🛡️ NgaoAI - AI-Powered Mobile Money Scam Detector
 
 > *Ngao = Shield in Swahili*
 
-NgaoAI detects mobile money scams targeting M-Pesa, Airtel Money, and Tigo Pesa users in East Africa. Built specifically for Swahili — the first of its kind.
+NgaoAI detects mobile money scams targeting M-Pesa, Airtel Money, and Tigo Pesa users in East Africa. Built specifically for Swahili - the first of its kind.
 
 ## How it works
 
@@ -13,7 +13,7 @@ NgaoAI detects mobile money scams targeting M-Pesa, Airtel Money, and Tigo Pesa 
 ## Channels
 - 🌐 Web app (PWA)
 - 📱 WhatsApp Bot
-- 📞 USSD (works on 2G feature phones — no internet needed)
+- 📞 USSD (works on 2G feature phones - no internet needed)
 
 ## Tech Stack
 - **Model:** Fine-tuned AfriBERT (Hugging Face)
@@ -47,10 +47,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
-## iSAFE Hackathon 2026
-Submitted under theme: **"Detect the Deceptive"**
-Event: ITU + CyberPeace Institute + WSIS Forum 2026
 
 ## Author
 **Edward Elisha Musabila**
