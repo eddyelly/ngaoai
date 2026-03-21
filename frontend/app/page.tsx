@@ -133,7 +133,7 @@ export default function Home() {
         <section className="max-w-6xl mx-auto px-6 pt-24 pb-20 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm mb-8">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            Now available — East Africa's first Swahili scam detection API
+            Now available East Africa's first Swahili scam detection API
           </div>
 
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight">
@@ -148,7 +148,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <a href="mailto:hello@edwardelisha.com?subject=NgaoAI API Key Request" className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg rounded-2xl transition-all hover:scale-105 shadow-lg shadow-emerald-500/30">
-              Get API Key — Free Trial
+              Get API Key - Free Trial
             </a>
             <Link href="/docs" className="px-8 py-4 glass border border-white/10 hover:border-white/20 font-semibold text-lg rounded-2xl transition-all">
               Read the Docs →
@@ -256,7 +256,7 @@ export default function Home() {
           <div className="glass rounded-3xl p-12 border border-emerald-500/20">
             <div className="text-5xl mb-6">🛡️</div>
             <h2 className="text-4xl font-black mb-4">Ready to protect your users?</h2>
-            <p className="text-white/50 mb-8 max-w-lg mx-auto">Join the fight against mobile money fraud in East Africa. Get your API key today — free trial, no credit card needed.</p>
+            <p className="text-white/50 mb-8 max-w-lg mx-auto">Join the fight against mobile money fraud in East Africa. Get your API key today free trial, no credit card needed.</p>
             <a href="mailto:hello@edwardelisha.com?subject=NgaoAI API Key Request" className="inline-block px-10 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg rounded-2xl transition-all hover:scale-105">
               Get Started Free →
             </a>
@@ -269,7 +269,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <span>🛡️</span>
               <span className="font-bold text-white/50">NgaoAI</span>
-              <span>— Swahili Scam Detection API</span>
+              <span> Swahili Scam Detection API</span>
             </div>
             <div className="flex items-center gap-6">
               <Link href="/demo" className="hover:text-white/60 transition-colors">Demo</Link>
